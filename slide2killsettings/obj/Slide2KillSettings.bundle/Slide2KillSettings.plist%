@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.suu.slide2killsettings</string>
+			<key>key</key>
+			<string>Enabled</string>
+			<key>label</key>
+			<string>Enabled</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>Slide UP
+The smaller the value is, the more sensitive it is.</string>
+			<key>label</key>
+			<string>Slide Sensitivity</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSliderCell</string>
+			<key>default</key>
+			<real>10</real>
+			<key>defaults</key>
+			<string>com.suu.slide2killsettings</string>
+			<key>key</key>
+			<string>SlideUpSen</string>
+			<key>max</key>
+			<real>40</real>
+			<key>min</key>
+			<real>1</real>
+			<key>showValue</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>Slide DOWN
+The smaller the value is, the more sensitive it is.</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSliderCell</string>
+			<key>default</key>
+			<real>10</real>
+			<key>defaults</key>
+			<string>com.suu.slide2killsettings</string>
+			<key>key</key>
+			<string>SlideDownSen</string>
+			<key>max</key>
+			<real>40</real>
+			<key>min</key>
+			<real>1</real>
+			<key>showValue</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkListCell</string>
+			<key>default</key>
+			<integer>0</integer>
+			<key>defaults</key>
+			<string>com.suu.slide2killsettings</string>
+			<key>detail</key>
+			<string>PSListItemsController</string>
+			<key>key</key>
+			<string>SlideUpAct</string>
+			<key>label</key>
+			<string>Slide Up Action</string>
+			<key>validTitles</key>
+			<array>
+				<string>Kill all</string>
+				<string>Kill single</string>
+				<string>Do Nothing</string>
+			</array>
+			<key>validValues</key>
+			<array>
+				<integer>0</integer>
+				<integer>1</integer>
+				<integer>2</integer>
+			</array>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkListCell</string>
+			<key>default</key>
+			<integer>0</integer>
+			<key>defaults</key>
+			<string>com.suu.slide2killsettings</string>
+			<key>detail</key>
+			<string>PSListItemsController</string>
+			<key>key</key>
+			<string>SlideDownAct</string>
+			<key>label</key>
+			<string>Slide Down Action</string>
+			<key>validTitles</key>
+			<array>
+				<string>Kill all</string>
+				<string>Kill single</string>
+				<string>Do Nothing</string>
+			</array>
+			<key>validValues</key>
+			<array>
+				<integer>0</integer>
+				<integer>1</integer>
+				<integer>2</integer>
+			</array>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkListCell</string>
+			<key>default</key>
+			<integer>0</integer>
+			<key>defaults</key>
+			<string>com.suu.slide2killsettings</string>
+			<key>detail</key>
+			<string>PSListItemsController</string>
+			<key>key</key>
+			<string>LongPressAct</string>
+			<key>label</key>
+			<string>LongPress Settings</string>
+			<key>validTitles</key>
+			<array>
+				<string>Long press to kill all</string>
+				<string>Long press to kill the other</string>
+				<string>Do nothing</string>
+			</array>
+			<key>validValues</key>
+			<array>
+				<integer>0</integer>
+				<integer>1</integer>
+				<integer>2</integer>
+			</array>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+		</dict>
+		<dict>
+			<key>action</key>
+			<string>followSina:</string>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>icon</key>
+			<string>WeiboIcon.png</string>
+			<key>label</key>
+			<string>Follow Me: @0xSuu</string>
+		</dict>
+		<dict>
+			<key>action</key>
+			<string>followTwitter:</string>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>icon</key>
+			<string>TwitterIcon.png</string>
+			<key>label</key>
+			<string>Follow Me: @al1en_Suu</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+		</dict>
+		<dict>
+			<key>action</key>
+			<string>openBlog:</string>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>icon</key>
+			<string>Suu.png</string>
+			<key>label</key>
+			<string>Visit my blog</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>Slide2Kill 0.0.5
+© 2013 Suu </string>
+		</dict>
+		<dict>
+			<key>action</key>
+			<string>donate:</string>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>icon</key>
+			<string>PayPalIcon.png</string>
+			<key>label</key>
+			<string>Donate</string>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>Slide2KillSettings</string>
+</dict>
+</plist>
